@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 8bf56353bcb3a8e798b55b546b9619cf
+          GIST_ID: 5e32f27e0a5486a95f8f1aac6ef03881
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
           STEAM_ID: ${{ secrets.STEAM_ID }}
     steps:
